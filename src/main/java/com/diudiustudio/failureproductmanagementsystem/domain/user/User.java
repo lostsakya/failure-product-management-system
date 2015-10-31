@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
- * Created by sakya on 2015/10/29.
+ * Created by liuhongjian on 15/10/30.
  */
 @Entity
 public class User {
@@ -23,7 +23,6 @@ public class User {
                 ", password='" + password + '\'' +
                 '}';
     }
-
     public long getId() {
         return id;
     }
